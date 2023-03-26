@@ -1,10 +1,10 @@
 import 'bootstrap'
 
-import '../js/owl.carousel.min'
+import './js/owl.carousel.min'
 
-import '../js/wow.min'
-import '../js/typewriter'
-import '../js/jquery.onepagenav'
+import './js/wow.min'
+import './js/typewriter'
+import './js/jquery.onepagenav'
 
 
 jQuery(function($) {
