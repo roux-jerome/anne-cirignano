@@ -1,0 +1,20 @@
+{
+  "name": "anne-cirignano",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "bootstrap": "3.4.1",
+    "jquery": "1.11.1",
+    "owl.carousel": "2.3.4"
+  }
+}
