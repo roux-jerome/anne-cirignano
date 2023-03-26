@@ -191,6 +191,14 @@ nav.navbar .navbar-nav li.active a:not(.btn) {
 	background-color: transparent;
 }
 
+nav.navbar  img.logo{
+	display: block;
+}
+
+nav.navbar  img.logo-active{
+	display: none;
+}
+
 nav.navbar-fixed-top {
 	z-index: 9499;
 	top: 0;
@@ -202,6 +210,13 @@ nav.navbar-fixed-top {
 
 nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 	color: #bbb;
+}
+nav.navbar-fixed-top  img.logo{
+	display: none;
+}
+
+nav.navbar-fixed-top  img.logo-active{
+	display: block;
 }
 
 .icon-bar {
