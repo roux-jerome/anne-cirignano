@@ -31,8 +31,9 @@ jQuery(function ($) {
             $('.parallax img').css('width', $('.parallax').height() * ratio + 'px');
         }
 
-        if ($(window).height() > 600) {
-            $('header').height($(window).height() - 150);
+        console.log($(window).height() )
+        if ($(window).height() > 700) {
+            $('header').height($(window).height() - 250);
         } else {
             $('header').height($(window).height() + 80);
         }
