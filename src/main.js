@@ -31,7 +31,6 @@ jQuery(function ($) {
             $('.parallax img').css('width', $('.parallax').height() * ratio + 'px');
         }
 
-        console.log($(window).height() )
         if ($(window).height() > 700) {
             $('header').height($(window).height() - 250);
         } else {
@@ -172,11 +171,6 @@ jQuery(function ($) {
     }
 
     $('.modal').on('show.bs.modal', centerModal);
-
-    $('.modal-popup .close-link').click(function (event) {
-        event.preventDefault();
-        $('#modal1').modal('hide');
-    });
 
     $(window).on("resize", function () {
         $('.modal:visible').each(centerModal);
