@@ -255,6 +255,7 @@ nav.navbar-fixed-top  img.logo-active{
 .btn.btn-blue:hover {
 	background: #fff1f1;
 	color:  #ff64c0;
+	border-color: #ff64c0;
 }
 
 .btn.btn-blue-fill {
@@ -288,6 +289,14 @@ nav.navbar-fixed-top  img.logo-active{
 .btn.btn-gray-fill:hover {
 	border-color: #bbb;
 	background: #bbb;
+}
+
+.btn.accent{
+	color: #ff64c0;;
+}
+
+.btn.accent:hover{
+	color: #8a8e91;;
 }
 
 /* Blink Cursor */
@@ -588,6 +597,23 @@ section {
 	background-size:cover;
 }
 
+
+
+.team .cover.shirotchampi{
+	background:url('img/soins/shirotchampi.png');
+	background-size:cover;
+}
+
+.team .cover.foot{
+	background:url('img/soins/foot.png');
+	background-size:cover;
+}
+
+.team .cover.balinais{
+	background:url('img/soins/balinais.png');
+	background-size:cover;
+}
+
 .team:hover .cover .overlay {
 	opacity: 1;
 }
@@ -707,10 +733,9 @@ section {
 /* Footer */
 
 footer {
-	padding: 140px 0 40px;
-	background: url('./img/footer.jpg');
-	-webkit-background-size: cover;
-	background-size: cover;
+	padding: 70px 0 40px;
+	color: #8a8e91;
+	background: url("img/footer.png") no-repeat #fff1f1;
 }
 
 footer .trial-button {
@@ -768,11 +793,11 @@ footer .social-footer li {
 
 footer .social-footer li a {
 	font-size: 24px;
-	color: #fff;
+	color: #ff64c0;
 }
 
 footer .social-footer li:hover a {
-	color: #ff64c0;
+	color: #8a8e91;
 }
 /* Form Control */
 
